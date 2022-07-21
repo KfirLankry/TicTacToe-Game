@@ -1,0 +1,203 @@
+body {
+  background-image: url(../imgs/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+  font-weight: bold;
+  filter: drop-shadow(0px 3px 1px rgb(30, 30, 30));
+}
+
+.h5_id {
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  color: #fec50c;
+  filter: drop-shadow(0px 3px 1px rgb(30, 30, 30));
+}
+
+#main {
+  width: 22%;
+  margin-left: 40%;
+  animation: fadeInRight 0.5s ease-in-out;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.cells {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cube {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
+
+#div1,
+#div2,
+#div3 {
+  border-right: 1px solid white;
+}
+
+#div7,
+#div8,
+#div9 {
+  border-left: 1px solid white;
+}
+
+#div1,
+#div2,
+#div4,
+#div5,
+#div7,
+#div8 {
+  border-bottom: 1px solid white;
+}
+
+.img {
+  width: 60%;
+  height: 60%;
+  margin-top: 20%;
+  filter: drop-shadow(0px 6px 2px black);
+  animation: fadeInRight 0.2s ease-in-out;
+}
+
+.image {
+  text-align: center;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.footer {
+  width: 100%;
+  color: black;
+  text-align: center;
+
+  background-image: url(../imgs/footerbg.jpg);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(210, 210, 210);
+}
+
+
+.winningmsg {
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+  margin: auto;
+  font-family: 'Fredoka One', cursive;
+}
+
+.thumb {
+  display: none;
+}
+
+.restart {
+    padding: 2rem;
+    margin: 15px auto
+}
+
+.btn {
+  padding: 1.2rem;
+  font-size: 1.3rem;
+  filter: drop-shadow(0px 3px 1px rgb(30, 30, 30));
+}
+
+.endgame {
+margin-top: 5rem;
+}
+
+/* Media Query */
+@media only screen and (max-width: 3500px) {
+  .cube {
+    width: 230px;
+    height: 230px;
+  }
+
+  .cells {
+    margin-top: 80px;
+  }
+  .image {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  .cube {
+    width: 165px;
+    height: 165px;
+  }
+
+  .cells {
+    margin-top: 5px;
+  }
+  .image {
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cube {
+    width: 120px;
+    height: 120px;
+  }
+
+  #main{
+    margin-left: 40%;
+
+  }
+  .cells {
+    margin-top: 5px;
+
+  }
+  .image {
+    margin-top: 7px;
+  }
+
+  .title {
+    width: 300px;
+    margin-right: 2rem;
+  }
+
+  .firstscreen {
+    margin-bottom:1rem;
+  }
+
+  .footer {
+    height: 3.5rem;
+    position: sticky;
+    bottom: 0;
+}
+  .thumb {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  filter: drop-shadow(2px 5px 1px rgb(30, 30, 30));
+}
+}
