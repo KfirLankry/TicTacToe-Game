@@ -12,7 +12,7 @@ Tic Tac Toe is a game in which two players seek in alternate turns to complete a
 * Font-awesome Icons  
 * JavaScript  
 
-## More Info:
+## More Info: 
 Development Field: Front-End  
 Live Web: https://tictactoe-apps.netlify.app/  
 Version: 1.0.4 
