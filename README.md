@@ -1,6 +1,6 @@
 # Tic Tac Toe Game
-A simple but super fun Tic Tac Toe game web based application which can be played by 2 playes.  
-The app was developed in order to practice Javascript while studing Fullstack Web Development Course. 
+A simple and super fun Tic Tac Toe game web based application which can be played by 2 playes.  
+The app was developed in order to practice Javascript while studying Fullstack Web Development Course. 
 
 #### Introduction
 Tic Tac Toe is a game in which two players seek in alternate turns to complete a row, a column, or a diagonal with either three O's or three X's.  
